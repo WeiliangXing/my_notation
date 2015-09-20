@@ -1,0 +1,136 @@
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Mynotation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <%= link_to "Mynotation", root_path, class: "navbar-brand page-scroll" %>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><%= link_to "Shots", "#", class: "page-scroll" %></li>
+                  <li><%= link_to "Sign In", "#", class: "page-scroll" %></li>
+                  <li><%= link_to "Sign Up", "#", class: "page-scroll" %></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading" style="margin-top:-10%;margin-bottom:-60px;">A place to get design critique easily</div>
+                <div class="intro-lead-in"></div>
+                <section id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center"></div>
+                        </div>        
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-offset-3">                     
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center col-sm-offset-2" style="margin-bottom:30px; line-height:36px;">
+                    <p class="section-heading" style="font-size:32px; font-weight:bold;line-height:48px;">Get design critiques from peers. Track feedback to remember the critical points.</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                   <%= image_tag("img/portfolio/1.png", :alt => "portfolio", :class => "img-responsive", :style => "padding-left:30%")  %>
+
+                    <h4 class="service-heading">VISUAL NOTATION</h4>
+
+                    <p class="text-muted" style="font-size:16px; padding:0 10px;">We provides student designers a new solution for communicating and organizing feedback without leaving out critical points.</p>
+                </div>
+                <div class="col-md-4">
+                       <%= image_tag("img/portfolio/2.png", :alt => "portfolio", :class => "img-responsive", :style => "padding-left:30%")  %>
+                    <h4 class="service-heading">CONSTRUCTIVE FEEDBACK</h4>
+                    <p class="text-muted" style="font-size:16px;">It is a private online community for design students, focusing on  giving and receiving constructive feedback</p>
+                </div>
+                <div class="col-md-4" >
+                        <%= image_tag("img/portfolio/3.png", :alt => "portfolio", :class => "img-responsive", :style => "padding-left:30%")  %>
+                    <h4 class="service-heading">DATA ANALYSIS</h4>
+                    <p class="text-muted" style="font-size:16px; padding:0 10px">We powerful data analysis tool can provide you customized feedback and additional resources for design learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testmoni">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">                 
+                    <p class="service-heading text-muted">“ In classroom, design critique got a little confusing. I want to use myNotation  becauese critique can be communicated clearly and I can keep track of the useful feedback”.</p>
+
+                </div>
+                <div class="col-md-6">                 
+                    <%= image_tag("img/portfolio/0.jpg", :alt => "portfolio", :class => "img-responsive", :style => "padding-left:30%")  %>
+                    <p class="text-muted"style="padding-left:30%;" >Josh Mayor</p>
+
+                </div>
+
+            </div>
+
+            <div class="row" style="padding-top:50px;">
+                <div class="col-md-6">
+                    <%= image_tag("img/portfolio/2.jpg", :alt => "portfolio", :class => "img-responsive", :style => "padding-left:30%")  %>
+
+                    <p class="text-muted"style="padding-left:30%;" >Jessica Scrot</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="service-heading text-muted">“I love the idea of myNotation because we can collect design  critique from peers and we can share knowledge”.</p>                 
+                </div>                       
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; myNotation 2015</span>
+                </div>
+                <div class="col-md-4">
+                  <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                      <li><%= link_to "Privacy Policy", "#" %></li>
+                      <li><%= link_to "Terms of Use", "#" %></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
